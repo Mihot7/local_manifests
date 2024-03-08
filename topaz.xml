@@ -27,4 +27,8 @@
   <!-- Dependencies -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-21" />
 
+  <remove-project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" />
+
+  <project path="hardware/qcom-caf/common" name="Securely2597/android_hardware_qcom-caf_common" remote="github" revision="lineage-21.0" />
+
 </manifest>
